@@ -1,2 +1,1 @@
-text = "hello world jdaoifdjofaif"
-print(max(text.split(), key=len))
+print(max(input("Enter the line: ").split(), key=len))
