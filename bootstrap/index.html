@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Страница о ШЦТ</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.4/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-DQvkBjpPgn7RC31MCQoOeC9TI2kdqa4+BSgNMNj8v77fdC77Kj5zpWFTJaaAoMbC" crossorigin="anonymous">
+  
+    <style>
+        .myclass {
+            padding: 200px;
+            padding-top: 50px;
+            padding-right: 500px;
+        }
+        body {
+            background-color: rgb(224, 247, 255);
+        }
+        .my-class2 {
+            padding-right: 300px;
+            background-color: aliceblue;
+            border: 3px solid darkblue;
+            border-radius: 10px;
+        }
+        form {
+            padding: 50px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">ШЦТ</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#my-form">Форма</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="myclass">
+        <h1>Школа цифровых технологий</h1>
+        <p>
+            В Школе Цифровых Технологий мы учим ребят создавать свои собственные миры! Здесь вы сможете стать настоящим программистом, геймдизайнером или даже разработчиком роботов! Мы научим вас делать игры, создавать сайты и рисовать крутую графику. Приходите к нам, и мы вместе превратим ваши фантазии в реальность!
+        </p>
+      <div id="carouselExampleControls" class="carousel slide d-block w-75" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="3.jpeg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+      <br>
+      <div class="my-class2">
+      <form id="my-form">
+        <h3>Запишитесь на пробное занятие!</h3>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">ФИО</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+            <label for="number" class="form-label">Номер телефона</label>
+            <input type="number" class="form-control" id="number" >
+          </div>
+          <div class="mb-3">
+            <label for="cr" class="form-label">Кружок</label>
+            <input type="text" class="form-control" id="cr" >
+          </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+      
+
+    <br>
+    <br>
+    <div class="container">
+        <footer class="py-3 my-4">
+          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            
+          </ul>
+          <p class="text-center text-muted">© 2021 Школа цифровых технологий</p>
+        </footer>
+      </div>
+    </div>
+
+
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.4/dist/js/bootstrap.bundle.min.js" integrity="sha384-YUe2LzesAfftltw+PEaao2tjU/QATaW/rOitAq67e0CT0Zi2VVRL0oC4+gAaeBKu" crossorigin="anonymous"></script>
+
+</body>
+</html>
