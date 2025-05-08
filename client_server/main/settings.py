@@ -27,6 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['sctverst-production.up.railway.app', '127.0.0.1']
 
+CORS_ORIGIN_WHITELIST = ['https://sctverst-production.up.railway.app/']
 
 # Application definition
 
